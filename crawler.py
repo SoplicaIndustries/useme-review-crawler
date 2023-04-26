@@ -4,8 +4,8 @@ from pathlib import Path
 from json import JSONEncoder
 from bs4 import BeautifulSoup
 
-url = "https://useme.com/pl/roles/contractor/soplica-software-solutions,257025/"
-dir_path = Path("C:/Users/rogoz/OneDrive/Pulpit/useme_crawler")
+url = ""
+dir_path = Path("")
 file_name = 'reviews.json'
 file_path = dir_path.joinpath(file_name)
 
